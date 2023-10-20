@@ -5,8 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .az {
+        display: flex;
+      }
+
+      .card {
+        border-radius: 20px;
+
+        margin-left: 10px;
+
+        height: 200px;
+
+        background-color: #fff;
+
+        flex: 1;
+
+        transition: 0.3s all ease;
+      }
+
+      .card:hover {
+        flex: 2;
+
+        background-color: rgb(207, 207, 207);
+      }
+
+      body {
+        background-color: black;
+      }
+    </style>
   </head>
   <body>
     <h1>Anyu vedd meg</h1>
+    <div class="az">
+      <div class="card"></div>
+
+      <div class="card"></div>
+
+      <div class="card"></div>
+
+      <div class="card"></div>
+
+      <div class="card"></div>
+    </div>
   </body>
 </html>
